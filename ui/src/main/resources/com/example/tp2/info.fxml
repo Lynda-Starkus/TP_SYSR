@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="251.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp2.infoCtrl">
+   <children>
+      <VBox layoutX="77.0" layoutY="48.0" prefHeight="180.0" prefWidth="416.0">
+         <children>
+            <HBox prefHeight="42.0" prefWidth="416.0">
+               <children>
+                  <Label prefHeight="42.0" prefWidth="87.0" text="PID" />
+                  <TextField fx:id="pid" disable="true" prefHeight="48.0" prefWidth="330.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="47.0" prefWidth="416.0">
+               <children>
+                  <Label prefHeight="42.0" prefWidth="87.0" text="Adresse IP" />
+                  <TextField fx:id="ip" disable="true" prefHeight="48.0" prefWidth="330.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="416.0">
+               <children>
+                  <Label prefHeight="42.0" prefWidth="87.0" text="Port" />
+                  <TextField fx:id="port" disable="true" prefHeight="48.0" prefWidth="330.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="48.0" prefWidth="416.0">
+               <children>
+                  <Label prefHeight="42.0" prefWidth="87.0" text="Ressource" />
+                  <TextField fx:id="ressource" disable="true" prefHeight="48.0" prefWidth="330.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</Pane>
